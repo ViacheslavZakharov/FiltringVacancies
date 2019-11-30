@@ -35,6 +35,7 @@ namespace FiltringVacancies
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddTransient<IGetterVacanciesService, GetterVacanciesService>();
+            services.AddTransient<IFilterVacanciesService, FilterVacanciesService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

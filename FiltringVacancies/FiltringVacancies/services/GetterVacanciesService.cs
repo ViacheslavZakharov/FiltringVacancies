@@ -57,7 +57,6 @@ namespace FiltringVacancies.services
                 }
             }
             return listVacancies;
-            //throw new NotImplementedException();
         }
 
         private Vacancy Deserialize(string jsonString)
@@ -65,6 +64,14 @@ namespace FiltringVacancies.services
             var vacancyDeserialized = JsonConvert.DeserializeObject<Vacancy>(jsonString);
             //если зарплата не указана то возвращам null
             return vacancyDeserialized.Salary == null ? null : vacancyDeserialized;
+        }
+
+        public List<string> GetCitiesVacancies(List<Vacancy> vacancies)
+        {
+            return vacancies.Where(vacancy => vacancy.Address != null && vacancy.Address.City != null)
+                .Select(vacancy => vacancy.Address.City)
+                .Distinct()
+                .ToList();
         }
     }
 }

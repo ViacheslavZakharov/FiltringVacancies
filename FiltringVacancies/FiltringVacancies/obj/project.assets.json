@@ -11826,11 +11826,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\v_zah\\OneDrive\\Desktop\\учеба\\1магистратура\\аксенов\\проектный практикум\\WT\\FiltringVacancies\\FiltringVacancies\\FiltringVacancies.csproj",
+      "projectUniqueName": "C:\\Users\\v_zah\\OneDrive\\Desktop\\учеба\\1магистратура\\аксенов\\проектный практикум\\FiltringVacancies\\FiltringVacancies\\FiltringVacancies\\FiltringVacancies.csproj",
       "projectName": "FiltringVacancies",
-      "projectPath": "C:\\Users\\v_zah\\OneDrive\\Desktop\\учеба\\1магистратура\\аксенов\\проектный практикум\\WT\\FiltringVacancies\\FiltringVacancies\\FiltringVacancies.csproj",
+      "projectPath": "C:\\Users\\v_zah\\OneDrive\\Desktop\\учеба\\1магистратура\\аксенов\\проектный практикум\\FiltringVacancies\\FiltringVacancies\\FiltringVacancies\\FiltringVacancies.csproj",
       "packagesPath": "C:\\Users\\v_zah\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\v_zah\\OneDrive\\Desktop\\учеба\\1магистратура\\аксенов\\проектный практикум\\WT\\FiltringVacancies\\FiltringVacancies\\obj\\",
+      "outputPath": "C:\\Users\\v_zah\\OneDrive\\Desktop\\учеба\\1магистратура\\аксенов\\проектный практикум\\FiltringVacancies\\FiltringVacancies\\FiltringVacancies\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

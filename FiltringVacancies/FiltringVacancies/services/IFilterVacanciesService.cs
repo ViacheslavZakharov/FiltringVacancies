@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace FiltringVacancies.services
 {
-    public interface IGetterVacanciesService
+    public interface IFilterVacanciesService
     {
-        List<Vacancy> GetVacancies();
-
-        List<string> GetCitiesVacancies(List<Vacancy> vacancies);
+        List<Vacancy> Filter(Filter filter, List<Vacancy> vacancies);
     }
 }

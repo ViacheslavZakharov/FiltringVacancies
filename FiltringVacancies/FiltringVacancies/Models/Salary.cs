@@ -28,9 +28,13 @@ namespace FiltringVacancies.Models
             {
                 resultSalary = string.Format("{0}", SalaryTo);
             }
-            else
+            else if (SalaryTo == null)
             {
                 resultSalary = string.Format("{0}", SalaryFrom);
+            }
+            else
+            {
+                resultSalary = string.Format("от {0} до {1}", SalaryFrom, SalaryTo);
             }
 
             return string.Format("{0} {1}", resultSalary, Currency);

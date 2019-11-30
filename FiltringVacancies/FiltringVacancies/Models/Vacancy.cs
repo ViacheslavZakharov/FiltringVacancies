@@ -22,5 +22,7 @@ namespace FiltringVacancies.Models
 
         [JsonProperty("address")]
         public Address Address { get; set; }
+
+        public static string DEFAULT_CITY = "любой";
     }
 }
